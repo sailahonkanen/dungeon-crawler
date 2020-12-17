@@ -6,8 +6,7 @@
   "scripts": {
     "start": "webpack serve --mode development --entry ./src/game.js",
     "build": "webpack --mode production --entry ./src/game.js --output-path ./dist/game.js",
-    "dev": "webpack --mode development --entry ./src/game.js --output-path ./dist/game.js",
-    "heroku-postbuild": "webpack -p --config ./webpack.config.js --progress"
+    "dev": "webpack --mode development --entry ./src/game.js --output-path ./dist/game.js"
   },
   "author": "Saila Honkanen",
   "license": "ISC",
