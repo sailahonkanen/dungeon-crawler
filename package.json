@@ -4,6 +4,7 @@
   "description": "Phaser 3 Dungeon Crawler",
   "private": true,
   "scripts": {
+    "build": "webpack",
     "postinstall": "npm run build",
     "start": "node server.js"
   },
