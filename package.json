@@ -4,9 +4,8 @@
   "description": "Phaser 3 Dungeon Crawler",
   "private": true,
   "scripts": {
-    "start": "webpack serve --mode development --entry ./src/game.js",
-    "build": "webpack --mode production --entry ./src/game.js --output-path ./dist/game.js",
-    "dev": "webpack --mode development --entry ./src/game.js --output-path ./dist/game.js"
+    "postinstall": "npm run build",
+    "start": "node server.js"
   },
   "author": "Saila Honkanen",
   "license": "ISC",
