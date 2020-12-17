@@ -1,1 +1,1 @@
-web:node src/game.js
+web:node dist/main.js
